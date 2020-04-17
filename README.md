@@ -13,7 +13,7 @@
 
 
 ## Usage<a name="usage"></a> 
-**Train model**    
+Train model        
 - Basic usage:     
 `python train.py data_directory`     
 
@@ -29,18 +29,18 @@ Use GPU for training:
 `python train.py data_dir --gpu`    
 
 
-**Predict flower name from an image**    
+Predict flower name from an image  
 - Basic usage:     
 `python predict.py /path/to/image checkpoint`    
 
 
 - Options:    
 Return top KK most likely classes:     
-`python predict.py input checkpoint --top_k 3`
+`python predict.py input checkpoint --top_k 3`    
 Use a mapping of categories to real names:     
-`python predict.py input checkpoint --category_names cat_to_name.json`
-Use GPU for inference:     
-`python predict.py input checkpoint --gpu`
+`python predict.py input checkpoint --category_names cat_to_name.json`     
+Use GPU for inference:         
+`python predict.py input checkpoint --gpu`    
 
 
 
